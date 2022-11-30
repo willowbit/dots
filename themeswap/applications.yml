@@ -1,0 +1,22 @@
+# This file outlines the applications that should
+# be changed when themeswap.py is run.
+
+alacritty:
+  config: /home/magland/.config/alacritty/alacritty.yml
+  commands: 
+
+polybar:
+  config: /home/magland/.config/polybar/colors
+  commands: /home/magland/.config/polybar/startpolybar.sh
+
+vscode:
+  config: /home/magland/.config/Code/User/settings.json
+  commands:
+
+gtk:
+  config: /home/magland/.config/xsettingsd/xsettingsd.conf
+  commands: killall -HUP xsettingsd
+
+wallpaper:
+  config: /home/magland/.config/wallpaper
+  commands: feh --bg-fill /home/magland/.config/wallpaper

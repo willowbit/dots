@@ -1,0 +1,7 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Nord",
+    "window.menuBarVisibility": "toggle"
+}

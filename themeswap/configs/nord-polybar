@@ -1,0 +1,4 @@
+export COLOR_BG="#2e3440"
+export COLOR_FG="#d8dee9"
+export COLOR_ACCENT_1="#4c566a"
+export COLOR_ACCENT_2="#434c5e"
