@@ -2,6 +2,8 @@
 
 A collection of configurations & things from my laptop, including a script for switching between themes. I've included the few that I mainly use (Nord, Everforest, Gruvbox,) but this mainly serves as a template for configuration organization.
 
+![screenshot](./screenshot.png)
+
 ### Usage
 
 Any way you'd like! I organize my configs through my themeswap script.

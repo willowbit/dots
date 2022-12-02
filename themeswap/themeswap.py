@@ -26,7 +26,7 @@ def main():
     subprocess.run(['convert', f'{dir}/tmpscrot', '-blur', '2x2', f'{dir}/tmpscrot'])
     show = subprocess.Popen(['feh', '-x', '-F', f'{dir}/tmpscrot'])
     # Wait for feh to open. This is the lowest I could get it
-    time.sleep(.1)
+    time.sleep(0.1)
     
     # Actually execute the script
     readconfig()

@@ -2,21 +2,21 @@
 # be changed when themeswap.py is run.
 
 alacritty:
-  config: /home/magland/.config/alacritty/alacritty.yml
+  config: ~/.config/alacritty/alacritty.yml
   commands: 
 
 polybar:
-  config: /home/magland/.config/polybar/colors
-  commands: /home/magland/.config/polybar/startpolybar.sh
+  config: ~/.config/polybar/colors
+  commands: ~/.config/polybar/startpolybar.sh
 
 vscode:
-  config: /home/magland/.config/Code/User/settings.json
+  config: ~/.config/Code/User/settings.json
   commands:
 
 gtk:
-  config: /home/magland/.config/xsettingsd/xsettingsd.conf
+  config: ~/.config/xsettingsd/xsettingsd.conf
   commands: killall -HUP xsettingsd
 
 wallpaper:
-  config: /home/magland/.config/wallpaper
-  commands: feh --bg-fill /home/magland/.config/wallpaper
+  config: ~/.config/wallpaper
+  commands: feh --bg-fill ~/.config/wallpaper
