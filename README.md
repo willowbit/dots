@@ -52,7 +52,7 @@ WM: [i3wm](https://i3wm.org/)
 Compositor: [dccsillag/picom](https://github.com/dccsillag/picom)  
 Bar: [Polybar](https://github.com/polybar/polybar) + [Nerdfonts](https://www.nerdfonts.com/) (for rounded borders)  
 Terminal: [Alacritty](https://github.com/alacritty/alacritty)
-	Font: [Hack](https://github.com/source-foundry/Hack)
+Font: [Hack](https://github.com/source-foundry/Hack)
 MD Editor: [Obsidian](https://obsidian.md/)
 File Browser: Nautilus*  
 Application Launcher: [rofi](https://github.com/davatorium/rofi) with [adi1090x's themes](https://github.com/adi1090x/rofi) + some tweaks
