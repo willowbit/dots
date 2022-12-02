@@ -48,16 +48,15 @@ If you improve this script, let me know on discord willa#6763 / make a pull requ
 
 ### Stuff I Used
 
-WM: [i3wm](https://i3wm.org/)  
-Compositor: [dccsillag/picom](https://github.com/dccsillag/picom)  
-Bar: [Polybar](https://github.com/polybar/polybar) + [Nerdfonts](https://www.nerdfonts.com/) (for rounded borders)  
-Terminal: [Alacritty](https://github.com/alacritty/alacritty)
-Font: [Hack](https://github.com/source-foundry/Hack)
-MD Editor: [Obsidian](https://obsidian.md/)
-File Browser: Nautilus*  
-Application Launcher: [rofi](https://github.com/davatorium/rofi) with [adi1090x's themes](https://github.com/adi1090x/rofi) + some tweaks
-
-Shell Prompt: My own custom one, you can find it in bashrc
+- WM: [i3wm](https://i3wm.org/)
+- Compositor: [dccsillag/picom](https://github.com/dccsillag/picom)
+- Bar: [Polybar](https://github.com/polybar/polybar) + [Nerdfonts](https://www.nerdfonts.com/) (for rounded borders)
+- Terminal: [Alacritty](https://github.com/alacritty/alacritty)
+- Font: [Hack](https://github.com/source-foundry/Hack)
+- MD Editor: [Obsidian](https://obsidian.md/)
+- File Browser: Nautilus*
+- Application Launcher: [rofi](https://github.com/davatorium/rofi) with [adi1090x's themes](https://github.com/adi1090x/rofi) + some tweaks
+- Shell Prompt: My own custom one, you can find it in bashrc
 
 *Note for GTK apps: I used xsettingsd to reload the GTK themes. Make sure xsettingsd is installed and running on startup. I put all GTK themes in ~/.themes, YMMV.
 
