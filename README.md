@@ -56,6 +56,7 @@ Terminal: [Alacritty](https://github.com/alacritty/alacritty)
 MD Editor: [Obsidian](https://obsidian.md/)
 File Browser: Nautilus*  
 Application Launcher: [rofi](https://github.com/davatorium/rofi) with [adi1090x's themes](https://github.com/adi1090x/rofi) + some tweaks
+
 Shell Prompt: My own custom one, you can find it in bashrc
 
 *Note for GTK apps: I used xsettingsd to reload the GTK themes. Make sure xsettingsd is installed and running on startup. I put all GTK themes in ~/.themes, YMMV.
