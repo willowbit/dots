@@ -1,0 +1,24 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+
+export PATH=$PATH:~/.spicetify:/usr/local/go/bin
+
+alias lofi_hiphop_radio_beats_to_relax_and_study_to="mpv https://youtu.be/jfKfPfyJRdk"
+. "$HOME/.cargo/env"
+alias swallpaper="feh --bg-fill"
+
+# run stuff
+
+yaf -no-color
+# kitty cat prompt
+export PS1='╭─( =^._.^)= [ \[\e[0;34m\]\w\[\e[0m\] ]\n╰──╯ ╰╯ ╰╯  '

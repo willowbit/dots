@@ -18,6 +18,8 @@ export PULSEAUDIO_LABEL="%{T3}墳%{T-} <ramp-volume>%{F${COLOR_ACCENT_2}}%{T2}%{
 export PULSEAUDIO_LABEL_MUTED="%{B$COLOR_ACCENT_2}%{T3} %{T-}%{F$COLOR_ACCENT_2}%{T2}%{B$COLOR_BG}"
 export MEMORY_LABEL="%{B$COLOR_ACCENT_1}%{T2}%{F$COLOR_BG} %{F-}%{T-}%{B$COLOR_ACCENT_1}%{F$COLOR_FG} %percentage_used:2%%"
 export THEMESWAP="%{B$COLOR_ACCENT_2}%{T2}%{F$COLOR_BG} %{F-}%{T-}%{B$COLOR_ACCENT_2}%{F#a7c080}"
+export MENU_LABEL_OPEN="%{T2} %{T2}%{F$COLOR_ACCENT_1}%{B$COLOR_BG}"
+export MENU_LABEL_CLOSE="%{T2} %{T2}%{F$COLOR_ACCENT_1}%{B$COLOR_BG}"
 
 ## Kill all bars and start new ones
 

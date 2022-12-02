@@ -181,26 +181,17 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-bindsym F12 exec tdrop -a -h 960 -w 561 -x 1349 -y 60 alacritty --config-file /home/magland/.config/alacritty/tdrop_alacritty.yml
+bindsym F12 exec "tdrop -a -h 960 -w 561 -x 1338 -y 60 -f '--class tdrop,tdrop' alacritty"
 
 gaps outer 0
 gaps inner 20
 gaps bottom 40
 gaps top 40
 
+# get rid of borders
 for_window [class="^.*"] border pixel 0
 for_window [class="tdrop"] floating enable
 
 exec_always ~/picom/build/src/picom --config ~/.config/picom/picom.conf
 exec_always ~/scripts/autostart
 exec_always --no-startup-id setxkbmap -option compose:caps
-
-# class                 border  backgr. text    indicator child_border
-
-client.focused          #61665a #61665a #ffffff #61665a   #285577
-client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #333333 #222222 #888888 #292d2e   #222222
-client.urgent           #2f343a #900000 #ffffff #900000   #900000
-client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
-
-client.background       #ffffff

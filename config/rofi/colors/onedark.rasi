@@ -7,10 +7,10 @@
  **/
 
 * {
-    background:     #272925;
-    background-alt: #3B3633;
-    foreground:     #BBAA9B;
-    selected:       #5A5f54;
-    active:         #98C379;
-    urgent:         #E06B74;
+    background:     #1E2127FF;
+    background-alt: #282B31FF;
+    foreground:     #FFFFFFFF;
+    selected:       #61AFEFFF;
+    active:         #98C379FF;
+    urgent:         #E06C75FF;
 }
